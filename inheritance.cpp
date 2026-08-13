@@ -40,4 +40,10 @@ public:
         cout << "Pelajar dihapus\n" << endl;
     }
 
-    
+    //pembuatan function perkenalan()
+    string perkenalan() {
+        return "Hallo, nama saya " + nama + " dari sekolah " + sekolah
+            + "\n\n";
+    }
+
+};
